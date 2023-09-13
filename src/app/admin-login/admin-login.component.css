@@ -1,0 +1,115 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    
+    margin-top: 2%;
+    background-color: whitesmoke;
+    }
+    h1{
+     
+      font-size: 40px;
+      color:#0CAFFF;
+      font-weight: bolder;
+      margin-bottom: 2%;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+    }
+     
+    
+    .card h2{
+      font-size: 40px;
+      color: #bf00ff;
+     
+    }
+    img{
+     
+        border-radius: 50%; 
+    }
+    
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 40%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid whitesmoke;
+      box-sizing: border-box;
+    }
+    
+    button {
+        background-color: #bf00ff;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 40%;
+        border-radius: 25px;
+        font-size: 16px;
+       
+      }
+      .card {
+        /* Add shadows to create the "card" effect */
+      
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        height: 600px;
+        margin: auto;
+        text-align: center;
+        background-color:#002244;
+        color: white;
+        font-weight: bolder;
+       padding-top: 10px;
+      }
+      a{
+        color: #0CAFFF;
+      }
+      .card-register
+      {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 600px;
+        height: 800px;
+        margin: auto;
+        text-align: center;
+        background-color:#002244;
+        color: white;
+        font-weight: bolder;
+       padding-top: 10px;
+      }
+      .card-register h2{
+        font-size: 50px;
+        color: #bf00ff;
+      }
+      .hero
+      {
+      
+        height: 100vh;
+        color: azure;
+       
+    
+      }
+      .hero h1{
+        color: #bf00ff;
+       font-size: 50px;
+      
+      }
+    .hero button
+    {
+      width: 200px;
+      padding: 12px;
+      font-size: x-large;
+     
+    
+    }
+    .hero .container
+    {
+      padding-top: 5%;
+      
+    }
+    .cardhome
+    {
+      width: 500px;
+      height: 400px;
+      background-color: #002244;
+      padding-top: 10%;
+    }

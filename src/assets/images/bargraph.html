@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="refresh" content="3">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+      <!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="assets/css/fontawesome.css">
+<link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+<link rel="stylesheet" href="assets/css/owl.css">
+<link rel="stylesheet" href="assets/css/lightbox.css">
+
+</head>
+<body>
+    <header class="main-header clearfix" role="header">
+        <div class="logo">
+          <a href="index.html"><img src="./assets/images/logo3.png" style="height: 250;" alt=""></a>
+        </div>
+        <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+        <nav id="menu" class="main-nav" role="navigation">
+          <ul class="main-menu">
+            <li><a href="#section1">Home</a></li>
+            <li class="has-submenu"><a href="#section2">About Us</a>
+              <ul class="sub-menu">
+                <li><a href="#section2">Who we are?</a></li>
+                <li><a href="#tabs-2">What we do?</a></li>xz
+               </ul>
+               
+            </li>
+            <li><a href="Subject.html">Subjects</a></li>
+        
+            <li><a href="#section6">Contact</a></li>
+            <li><a href="sos-main/Gallery.html" >Gallery </a></li>
+            <li><a href="bargraph.html" >updates </a></li>
+            <a href="Gallery.html">Gallery</a>
+          </ul>
+        </nav>
+      </header>
+<div class="hero">
+
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+</div>
+<script>
+var xValues = ["2018", "2019", "2020", "2021", "2022"];
+var yValues = [93.6, 97.5, 87.3, 24, 15];
+var barColors = ["red", "green","blue","orange","brown"];
+
+new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    title: {
+      display: true,
+      text: "World Wine Production 2018"
+    }
+  }
+});
+</script>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Copyright 2023 by Sekhululekile Secondary <a  class="split" href="admin/login.html">Admin</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
